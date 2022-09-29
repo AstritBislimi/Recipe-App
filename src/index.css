@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 90%;
+  margin: 0 auto;
+  background-color: black;
+  font-family: "Lobster", cursive;
+}
+
+.sectionHeader {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #f27121, #e94057);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-align: center;
+  font-size: 6rem;
+  display: block;
+  padding-bottom: 1rem;
+  margin-top: 6rem;
+}
+
+@media (max-width: 769px) {
+  h1 {
+    width: 100%;
+    font-size: 4rem;
+  }
+}
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(35deg, #494949, #313131);
+  border-radius: 30px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
